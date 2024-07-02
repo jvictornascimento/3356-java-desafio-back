@@ -15,7 +15,7 @@ public class FraseController {
 
     @GetMapping("/frases")
     public FraseDTO frases(){
-        return service.getOneFraseRandon();
+        return service.getOneFraseRandom();
     }
 
 
